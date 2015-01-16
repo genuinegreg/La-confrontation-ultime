@@ -83,9 +83,35 @@
         #countdown {
             position: absolute;
             width:100%;
-            top:6em;
+            top:20em;
             text-align: center;
             font-size: 2em
+        }
+
+        .saumon
+        {
+            position: absolute;
+            height: 400px;
+            width: 400px;
+            top: 14em;
+            background-image: url('logo-s.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            right: 50%;
+            margin-right: 1em;
+        }
+
+        .mf
+        {
+            position: absolute;
+            height: 400px;
+            width: 400px;
+            top: 14em;
+            left: 50%;
+            margin-left: 1em;
+            background-image: url('logo-mf.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
         }
     </style>
     </head>
@@ -94,7 +120,9 @@
         <h1>La confrontation ultime</h1>
         <span class="team red">Saumon rouge</span>
         <span class="vs">VS</span>
-        <span class="team blue">MrFriz</span>
+        <span class="team blue">Mr Friz</span>
+        <span class="saumon"></span>
+        <span class="mf"></span>
         <br>
         <div id="countdown"></div>
     </body>
